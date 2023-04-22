@@ -19,5 +19,5 @@ liIngredient.textContent = ingredient;
 })
 
 const listLi = document.querySelector("#ingredients")
-console.log(listLi)
+// console.log(listLi)
 listLi.append(...list) 

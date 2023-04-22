@@ -17,7 +17,7 @@ const elementsArray = images.map(element => {
 }).join('')
 
 const listGallery = document.querySelector(".gallery")  
-console.log(listGallery)
+// console.log(listGallery)
 listGallery.insertAdjacentHTML('afterbegin', elementsArray);
 
 
